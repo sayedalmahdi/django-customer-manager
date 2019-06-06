@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="pb-2 mt-4 mb-4 border-bottom">
+        {{ object.first_name }} {{ object.last_name }}
+        <span class="float-right">
+				<a class="btn btn-primary" href="{{ object.get_update_url }}">Edit</a>
+				<a class="btn btn-danger" href="{{ object.get_delete_url }}">Delete</a>
+        </span>
+    </h1>
+
+    <ul class="list-group mb-4">
+        <li class="list-group-item"><i class="fas fa-mobile-alt"></i>{{ object.phone }}</li>
+        <li class="list-group-item"><i class="fas fa-envelope"></i>{{ object.email }}</li>
+    </ul>
+
+    <ul class="list-group mb-4">
+        <li class="list-group-item"><i class="fas fa-map-marker-alt"></i>{{ object.address }}</li>
+        <li class="list-group-item"><i class="fas fa-city"></i>{{ object.city }}</li>
+        <li class="list-group-item"><i class="fas fa-globe-asia"></i>{{ object.state }}</li>
+    </ul>
+    </div>
+
+{% endblock %}

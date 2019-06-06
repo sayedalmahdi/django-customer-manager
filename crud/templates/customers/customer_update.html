@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h1 class="pb-2 mt-4 mb-4 border-bottom">Edit Customer</h1>
+
+    <form action="." method="POST" novalidate> {% csrf_token %}
+
+        {% for hidden_field in form.hidden_fields %} {{ hidden_field }} {% endfor %}
+
+        {% if form.non_field_errors %}
+            <div class="alert alert-danger" role="alert">
+                {% for error in form.non_field_errors %} {{ error }} {% endfor %}
+            </div>
+        {% endif %}
+
+        <div class="card mb-4">
+            <div class="card-header h5">Customer Info</div>
+            <div class="card-body">
+                {% include 'customers/../snippets/customer_form_snippet.html' with field=form.first_name %}
+                {% include 'customers/../snippets/customer_form_snippet.html' with field=form.last_name %}
+            </div>
+        </div>
+
+        <div class="card mb-4">
+            <div class="card-header h5">Customer Contact</div>
+            <div class="card-body">
+                {% include 'customers/../snippets/customer_form_snippet.html' with field=form.email %}
+                {% include 'customers/../snippets/customer_form_snippet.html' with field=form.phone %}
+            </div>
+        </div>
+
+        <div class="card mb-4">
+            <div class="card-header h5">Customer Location</div>
+            <div class="card-body">
+                {% include 'customers/../snippets/customer_form_snippet.html' with field=form.address %}
+                {% include 'customers/../snippets/customer_form_snippet.html' with field=form.city %}
+                {% include 'customers/../snippets/customer_form_snippet.html' with field=form.state %}
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <input class="btn btn-primary col-sm-4" type="submit" value="Submit"/>
+        </div>
+
+    </form>
+{% endblock %}

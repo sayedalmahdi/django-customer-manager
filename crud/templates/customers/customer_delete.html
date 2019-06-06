@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <form action="" method="post">{% csrf_token %}
+        {{ form.as_p }}
+        <div class="alert alert-warning" role="alert">
+            You are about to delete the customer: <strong>"{{ object.first_name }} {{ object.last_name }}"</strong> !
+        </div>
+
+        <button type="submit" class="btn btn-danger">Confirm</button>
+        <a class="btn btn-primary" href="../">Cancel</a>
+    </form>
+{% endblock content %}
