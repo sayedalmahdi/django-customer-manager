@@ -3,6 +3,40 @@
   <component name="ChangeListManager">
     <list default="true" id="2c3f1b94-343e-4c26-9527-8272551cc044" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/customer_manager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d0a5cb2e-c4b2-4796-8cad-cfebc21af43d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/templates/customers/customer_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/templates/customers/customer_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/templates/customers/customer_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/templates/customers/customer_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/templates/customers/customer_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/templates/snippets/customer_form_snippet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer_manager/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer_manager/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer_manager/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer_manager/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/crud/css/master.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +79,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
+            <state relative-caret-position="202">
               <caret line="123" column="6" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="6" />
             </state>
           </provider>
@@ -205,6 +239,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/crud/templates" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -280,18 +315,17 @@
       <updated>1559665435049</updated>
       <workItem from="1559665450786" duration="27785000" />
       <workItem from="1559749100046" duration="25330000" />
-      <workItem from="1559820432569" duration="282000" />
+      <workItem from="1559820432569" duration="533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53397000" />
+    <option name="totallyTimeSpent" value="53648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="733" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24090908" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24090908" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -305,7 +339,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32911393" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32911393" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.49683544" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.49683544" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32911393" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -492,7 +526,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
+        <state relative-caret-position="202">
           <caret line="123" column="6" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="6" />
         </state>
       </provider>
