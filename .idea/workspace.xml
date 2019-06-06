@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2c3f1b94-343e-4c26-9527-8272551cc044" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/customer_manager/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer_manager/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,11 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/customer_manager/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
-              <folding>
-                <element signature="e#317#326#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="112">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -278,12 +276,12 @@
       <updated>1559665435049</updated>
       <workItem from="1559665450786" duration="27785000" />
       <workItem from="1559749100046" duration="25330000" />
-      <workItem from="1559820432569" duration="2278000" />
+      <workItem from="1559820432569" duration="4287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55393000" />
+    <option name="totallyTimeSpent" value="57402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="733" extended-state="6" />
@@ -494,11 +492,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/customer_manager/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
-          <folding>
-            <element signature="e#317#326#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="112">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
