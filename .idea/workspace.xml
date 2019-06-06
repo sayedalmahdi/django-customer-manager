@@ -36,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/customer_manager/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="26" selection-start-line="26" selection-end-line="26" selection-end-column="12" />
+            <state relative-caret-position="142">
+              <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
               <folding>
                 <element signature="e#317#326#0" expanded="true" />
               </folding>
@@ -278,15 +278,16 @@
       <updated>1559665435049</updated>
       <workItem from="1559665450786" duration="27785000" />
       <workItem from="1559749100046" duration="25330000" />
-      <workItem from="1559820432569" duration="2055000" />
+      <workItem from="1559820432569" duration="2278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55170000" />
+    <option name="totallyTimeSpent" value="55393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="733" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24090908" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -493,8 +494,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/customer_manager/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="26" selection-start-line="26" selection-end-line="26" selection-end-column="12" />
+        <state relative-caret-position="142">
+          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
           <folding>
             <element signature="e#317#326#0" expanded="true" />
           </folding>
